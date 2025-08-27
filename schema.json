@@ -1,0 +1,82 @@
+{
+  "target_col": "Loan_Status",
+  "numeric_features": [
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History"
+  ],
+  "categorical_features": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area"
+  ],
+  "defaults": {
+    "ApplicantIncome": 3812.5,
+    "CoapplicantIncome": 1188.5,
+    "LoanAmount": 128.0,
+    "Loan_Amount_Term": 360.0,
+    "Credit_History": 1.0,
+    "Gender": "Male",
+    "Married": "Yes",
+    "Dependents": "0",
+    "Education": "Graduate",
+    "Self_Employed": "No",
+    "Property_Area": "Semiurban"
+  },
+  "categories": {
+    "Gender": [
+      "Female",
+      "Male"
+    ],
+    "Married": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "0",
+      "1",
+      "2",
+      "3+"
+    ],
+    "Education": [
+      "Graduate",
+      "Not Graduate"
+    ],
+    "Self_Employed": [
+      "No",
+      "Yes"
+    ],
+    "Property_Area": [
+      "Rural",
+      "Semiurban",
+      "Urban"
+    ]
+  },
+  "ranges": {
+    "ApplicantIncome": {
+      "min": 1025.0,
+      "max": 32540.410000000047
+    },
+    "CoapplicantIncome": {
+      "min": 0.0,
+      "max": 8895.890000000003
+    },
+    "LoanAmount": {
+      "min": 30.0,
+      "max": 496.3600000000001
+    },
+    "Loan_Amount_Term": {
+      "min": 84.0,
+      "max": 480.0
+    },
+    "Credit_History": {
+      "min": 0.0,
+      "max": 1.0
+    }
+  }
+}
